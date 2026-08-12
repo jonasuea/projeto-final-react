@@ -3,12 +3,13 @@ import Inicio from './pages/Inicio.jsx';
 import ListaCompras from './components/ListaCompras.jsx';
 import Contato from './pages/Contato.jsx';
 import Navbar from './components/Navbar.jsx';
+import Header from './components/Header.jsx';
+
 
 export default function App() {
   return (
     <div>
-      <h1>Meu Site</h1>
-      <Navbar />
+      <Header />
       <hr />
       <Routes>
         <Route path="/" element={<Inicio />} />
