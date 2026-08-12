@@ -1,0 +1,18 @@
+.cracha img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.cracha{
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.cracha h1{
+    margin-top: 40px;
+    color: white
+}

@@ -1,0 +1,25 @@
+body {
+  background-color:#ede900;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo-principal {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  background-color: #067c37; /* Substitua pela sua cor (Hex, RGB ou nome) */
+  min-height: 100vh;         /* Garante que o fundo cubra toda a altura da tela */
+  color: rgb(0, 0, 0);              /* Opcional: altera a cor do texto para dar contraste */
+}
+
+.fundo-principal hr{
+  width: 100%;
+
+}
