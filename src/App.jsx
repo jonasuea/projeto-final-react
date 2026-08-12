@@ -7,6 +7,7 @@ import Navbar from './components/Navbar.jsx';
 export default function App() {
   return (
     <div>
+      <h1>Meu Site</h1>
       <Navbar />
       <hr />
       <Routes>
